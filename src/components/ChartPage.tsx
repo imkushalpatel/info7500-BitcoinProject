@@ -2,7 +2,9 @@
 import React, { useState, useEffect } from "react";
 import { request } from "graphql-request";
 import { Bar } from "react-chartjs-2";
-import { Container, Row, Col } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import "chart.js/auto";
 
 const requestHeaders = {
@@ -189,7 +191,7 @@ const ChartPage: React.FC = () => {
   };
 
   return (
-    <Container fluid>
+    <Container >
       <Row>
         <Col>
           <h1>Transactions</h1>
