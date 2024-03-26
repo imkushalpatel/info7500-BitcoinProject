@@ -1,9 +1,11 @@
-import Dashboard from "@/components/Dashboard";
+import BitcoinChartsPage from "@/components/ChartPage";
+import BlockList from "@/components/BlockList";
 
 export default function Home() {
   return (
     <>
-      <Dashboard />
+      {/* <BlockList /> */}
+      <BitcoinChartsPage />
     </>
   );
 }
